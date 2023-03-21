@@ -1,4 +1,4 @@
-# Astro Starter Kit: Basics
+# PARALLAX EFFECT WITH PURE CSS (NO JS)
 
 ```
 NO NEED TO USE JAVASCRIPT!
@@ -8,7 +8,7 @@ NO NEED TO USE JAVASCRIPT!
 > 🧑‍🚀 **Check the code!**
 
 
-## 🚀 Project Structure
+## 🚀 How to do it:
 
 1.- Create a div class "wrapper" element and set the following CSS to it:
 ```
