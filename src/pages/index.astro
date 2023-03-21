@@ -1,0 +1,181 @@
+---
+import Layout from "../layouts/Layout.astro";
+import Card from "../components/Card.astro";
+---
+
+<Layout title="Welcome to Astro.">
+  <div class="main">
+    <header class="header">
+      <!-- <div class="first"></div> -->
+      <div class="second"></div>
+      <h2 class="h2">WELCOME</h2>
+    </header>
+    <section>
+      <h1>Welcome to <span class="text-gradient">Astro</span></h1>
+      <p class="instructions">
+        To get started, open the directory <code>src/pages</code> in your project.<br
+        />
+        <strong>Code Challenge:</strong> Tweak the "Welcome to Astro" message above.
+      </p>
+      <h1>Welcome to <span class="text-gradient">Astro</span></h1>
+      <p class="instructions">
+        To get started, open the directory <code>src/pages</code> in your project.<br
+        />
+        <strong>Code Challenge:</strong> Tweak the "Welcome to Astro" message above.
+      </p>
+      <h1>Welcome to <span class="text-gradient">Astro</span></h1>
+      <p class="instructions">
+        To get started, open the directory <code>src/pages</code> in your project.<br
+        />
+        <strong>Code Challenge:</strong> Tweak the "Welcome to Astro" message above.
+      </p>
+    </section>
+    <section>
+      <h1>Welcome to <span class="text-gradient">Astro</span></h1>
+      <p class="instructions">
+        To get started, open the directory <code>src/pages</code> in your project.<br
+        />
+        <strong>Code Challenge:</strong> Tweak the "Welcome to Astro" message above.
+      </p>
+      <h1>Welcome to <span class="text-gradient">Astro</span></h1>
+      <p class="instructions">
+        To get started, open the directory <code>src/pages</code> in your project.<br
+        />
+        <strong>Code Challenge:</strong> Tweak the "Welcome to Astro" message above.
+      </p>
+      <h1>Welcome to <span class="text-gradient">Astro</span></h1>
+      <p class="instructions">
+        To get started, open the directory <code>src/pages</code> in your project.<br
+        />
+        <strong>Code Challenge:</strong> Tweak the "Welcome to Astro" message above.
+      </p>
+    </section>
+    <header class="header">
+      <!-- <div class="first"></div> -->
+      <div class="third"></div>
+      <h2 class="h3">WELCOME</h2>
+    </header>
+    <section>
+      <h1>Welcome to <span class="text-gradient">Astro</span></h1>
+      <p class="instructions">
+        To get started, open the directory <code>src/pages</code> in your project.<br
+        />
+        <strong>Code Challenge:</strong> Tweak the "Welcome to Astro" message above.
+      </p>
+      <h1>Welcome to <span class="text-gradient">Astro</span></h1>
+      <p class="instructions">
+        To get started, open the directory <code>src/pages</code> in your project.<br
+        />
+        <strong>Code Challenge:</strong> Tweak the "Welcome to Astro" message above.
+      </p>
+      <h1>Welcome to <span class="text-gradient">Astro</span></h1>
+      <p class="instructions">
+        To get started, open the directory <code>src/pages</code> in your project.<br
+        />
+        <strong>Code Challenge:</strong> Tweak the "Welcome to Astro" message above.
+      </p>
+    </section>
+    <section>
+      <h1>Welcome to <span class="text-gradient">Astro</span></h1>
+      <p class="instructions">
+        To get started, open the directory <code>src/pages</code> in your project.<br
+        />
+        <strong>Code Challenge:</strong> Tweak the "Welcome to Astro" message above.
+      </p>
+      <h1>Welcome to <span class="text-gradient">Astro</span></h1>
+      <p class="instructions">
+        To get started, open the directory <code>src/pages</code> in your project.<br
+        />
+        <strong>Code Challenge:</strong> Tweak the "Welcome to Astro" message above.
+      </p>
+      <h1>Welcome to <span class="text-gradient">Astro</span></h1>
+      <p class="instructions">
+        To get started, open the directory <code>src/pages</code> in your project.<br
+        />
+        <strong>Code Challenge:</strong> Tweak the "Welcome to Astro" message above.
+      </p>
+    </section>
+  </div>
+</Layout>
+
+<style>
+  .main {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    perspective: 10px;
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+  h1 {
+    font-size: 3rem;
+    font-weight: 800;
+    margin: 0;
+  }
+  .h2 {
+    font-size: 15vw;
+    color: transparent;
+    text-shadow: 0 0 1px gray;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: -1;
+    transform: translateZ(-15px) translateX(-50%) translateY(-50%) scale(2.5);
+  }
+  .h3 {
+    font-size: 15vw;
+    color: brown;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: -1;
+    transform: translateZ(-5px) translateX(-50%) translateY(-50%) scale(1.5);
+  }
+
+  header {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    height: 100vh;
+    transform-style: preserve-3d;
+    z-index: -1;
+  }
+  /* .first {
+    background-color: yellow;
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    z-index: -1;
+    transform: translateZ(-10px) scale(2);
+  } */
+  .second {
+    background-color: blue;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    z-index: -1;
+    transform: translateZ(-15px) scale(2.5);
+  }
+  .third {
+    background-color: gray;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    z-index: -1;
+    transform: translateZ(-5px) scale(1.5);
+  }
+
+  section {
+    width: 100%;
+    height: 100vh;
+    background-color: peru;
+    position: relative;
+    top: 0%;
+  }
+</style>
