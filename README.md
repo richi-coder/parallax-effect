@@ -10,7 +10,9 @@ NO NEED TO USE JAVASCRIPT!
 
 ## 🚀 How to do it:
 
-1.- Create a div class "wrapper" element and set the following CSS to it:
+0.- Focus only on this exercise before adding it to your project. This requires not using the BODY element.
+
+1.- Create a div class "wrapper" element inside the body element and set the following CSS to it:
 ```
 .wrapper {
     margin: 0;
