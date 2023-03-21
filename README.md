@@ -1,23 +1,53 @@
 # Astro Starter Kit: Basics
 
 ```
-npm create astro@latest -- --template basics
+NO NEED TO USE JAVASCRIPT!
 ```
+## Requires patience!
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/basics)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/basics)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/basics/devcontainer.json)
-
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
-
-![basics](https://user-images.githubusercontent.com/4677417/186188965-73453154-fdec-4d6b-9c34-cb35c248ae5b.png)
+> 🧑‍🚀 **Check the code!**
 
 
 ## 🚀 Project Structure
 
-Inside of your Astro project, you'll see the following folders and files:
-
+1.- Create a div class "wrapper" element and set the following CSS to it:
 ```
+.wrapper {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    perspective: 10px;
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+```
+
+* As you can see, this wrapper element will contain the rest of HTML elements and will be scrolling, instead of scrolling body, main or html.
+
+2.- Create another div inside the "wrapper", call it "sub". Add this CSS to it:
+```
+.sub {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    height: 100vh;
+    transform-style: preserve-3d;
+    z-index: -1;
+}
+```
+* This div will containt the element that will produce the parallax effect.
+
+3.- Create two elements to try the effect as next:
+
+
+
+
 /
 ├── public/
 │   └── favicon.svg
